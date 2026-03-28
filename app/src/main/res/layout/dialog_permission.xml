@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_background"
+    android:padding="28dp"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp">
+
+    <!-- Icon -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📁"
+        android:textSize="48sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allow File Access"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TrashData needs access to your Downloads and Documents folders to scan for forgotten and large files."
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.4"
+        android:layout_marginBottom="8dp" />
+
+    <!-- What we access -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_background"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✓"
+                android:textSize="14sp"
+                android:textColor="@color/accent"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read file names and sizes"
+                android:textSize="13sp"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✓"
+                android:textSize="14sp"
+                android:textColor="@color/accent"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check last modified dates"
+                android:textSize="13sp"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Allow button -->
+    <Button
+        android:id="@+id/btnAllow"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Allow Access"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/bg_primary"
+        android:background="@drawable/btn_primary_background"
+        android:stateListAnimator="@null"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Deny button -->
+    <Button
+        android:id="@+id/btnDeny"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Not Now"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:background="@drawable/btn_outline_background"
+        android:stateListAnimator="@null" />
+
+</LinearLayout>

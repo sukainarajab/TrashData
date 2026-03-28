@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Backgrounds -->
+    <color name="bg_primary">#FF0E0E14</color>
+    <color name="bg_secondary">#FF17171F</color>
+    <color name="bg_card">#FF1F1F2A</color>
+    <color name="divider">#1AFFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFF0F0F5</color>
+    <color name="text_secondary">#FF9090A8</color>
+    <color name="text_hint">#FF5A5A72</color>
+
+    <!-- Accent -->
+    <color name="accent">#FF5BF5A2</color>
+
+    <!-- Score labels -->
+    <color name="score_clean">#FF5BF5A2</color>
+    <color name="score_moderate">#FFFFD166</color>
+    <color name="score_high">#FFFF6B6B</color>
+
+    <!-- File age badges -->
+    <color name="badge_red">#FFFF6B6B</color>
+    <color name="badge_yellow">#FFFFD166</color>
+    <color name="badge_green">#FF5BF5A2</color>
+
+
+
+    <!-- Material default (required) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
 </resources>
